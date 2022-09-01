@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "automated test",
+      "setup": "git checkout 72da2619ed640e841b228f19acddc5cbc0e505e3 -- src/test/java/at/spengergasse/mis/testgithubclassroom/GradingTests.java",
+      "run": "./mvnw test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
